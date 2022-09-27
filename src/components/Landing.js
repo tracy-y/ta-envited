@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import { Container, Stack } from "@mui/system";
-import LandingPage from "../static/Birthdaycake.png";
+import LandingPage from "../static/LandingPage.png";
 import { Link } from "react-router-dom";
 
 function App() {
@@ -22,12 +22,21 @@ function App() {
                 width: "775.69px",
                 left: "calc(50% - 440px/2 - 366px)",
                 top: " 100px",
-
-                backgroundImage: `url(${LandingPage})`,
-                filter: "drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05))",
-                borderRadius: " 35.1522px",
               }}
-            ></Box>
+            >
+              <Box
+                sx={{
+                  height: "100%",
+                  width: "100%",
+                  backgroundImage: `url(${LandingPage})`,
+                  backgroundRepeat: "no-repeat",
+                  // backgroundSize: "Cover",
+                  backgroundPosition: " center ",
+                  filter: "drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05))",
+                  borderRadius: " 35.1522px",
+                }}
+              ></Box>
+            </Box>
           </Box>
           <Box
             item

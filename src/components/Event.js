@@ -77,6 +77,9 @@ const ContactCard = (props) => {
                 top: " 100px",
 
                 backgroundImage: `url(${Birthdaycake})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "Cover",
+                backgroundPosition: " center ",
                 filter: "drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05))",
                 borderRadius: " 35.1522px",
               }}
