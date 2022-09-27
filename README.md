@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+**The Challenge**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You are tasked with building the initial front end for an event social media application to rival its top competitor Envited!
 
-## Available Scripts
+Your app should include the following functionality:
 
-In the project directory, you can run:
+**Landing page: “/”**
 
-### `npm start`
+- This page should replicate our design on Figma as closely as possible.
+  - Landing page Figma link: https://www.figma.com/file/LqPQ72db8HnZghmiYKsWqd/Front-end-Tech-Assessment?node-id=0%3A1
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Create event page: “/create”**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- After clicking the “create event” button, the user should be directed to a new page where they can input their event details. This should include the following: Event name, Host name, Start and End time/date, Location and Event photo.
+- Ensure there is a “next” button on the page – this should take the user to the “/event” page.
+- This page has no pre-made design as we would love to see how creative you can get without the input from our designers. Remember to style it using Envited’s colours which are in your Figma file.
 
-### `npm test`
+**Event page: “/event”**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- After clicking the “next” button, the user should be directed to their event page where all details are displayed.
+- This event page should replicate our design on Figma as closely as possible: https://www.figma.com/file/LqPQ72db8HnZghmiYKsWqd/Front-end-Tech-Assessment?node-id=14%3A279
+- Once again, all colours/icons/images you need are below.
 
-### `npm run build`
+**Bonus tasks:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Allow the event and event details (like event name, host name, start/end time/date etc.) to be editable.
+- Implementation of responsive design – all designs should initially be completed to function on a mobile device. However, if time allows, making a desktop friendly version of the task would be preferred.
